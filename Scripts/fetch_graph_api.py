@@ -44,7 +44,7 @@ def fetch_instagram_profile():
     # Or replace with config.INSTAGRAM_ACCOUNT_ID if that is the same ID
     user_id = config.INSTAGRAM_ACCOUNT_ID
     
-    url = f"https://graph.facebook.com/v25.0/{user_id}"
+    url = f"https://graph.instagram.com/v25.0/{user_id}"
     
     # Define the fields you want to retrieve
     params = {
